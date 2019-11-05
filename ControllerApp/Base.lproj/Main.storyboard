@@ -13,10 +13,13 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="vkz-gt-WDa" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="akM-Nq-6eB"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="CDc-AJ-LYB" customClass="title">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="blackTranslucent" id="CDc-AJ-LYB">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" systemColor="systemGrayColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -25,7 +28,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cMv-pX-3Vz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="655" y="94"/>
+            <point key="canvasLocation" x="665" y="94"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="at7-uu-Mhl">
@@ -76,8 +79,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="080-Xo-Mqr"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" image="calendar" catalog="system" selectedImage="calendar" id="nAx-72-OPi"/>
+                    <tabBarItem key="tabBarItem" title="Item" image="calendar" catalog="system" selectedImage="calendar" id="SEr-Up-SvQ"/>
                     <navigationItem key="navigationItem" title="View Two" id="XYL-vY-BoZ"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="K68-GC-uRF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -111,8 +115,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="C96-FF-RsX"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" image="umbrella" catalog="system" selectedImage="umbrella" id="Hw0-Iw-VoJ"/>
+                    <tabBarItem key="tabBarItem" title="Item" image="umbrella" catalog="system" selectedImage="umbrella" id="RsF-OI-bAs"/>
                     <navigationItem key="navigationItem" title="View One" id="mRJ-qd-iiN"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0L5-g7-28q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
